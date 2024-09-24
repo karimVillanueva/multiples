@@ -25,10 +25,14 @@
   },
   "homepage": "https://github.com/karimVillanueva/multiples#readme",
   "devDependencies": {
+    "jest": "^29.7.0",
     "standard": "^17.1.2"
   },
   "eslintConfig": {
-  "extends": "./node_modules/standard/eslintrc.json",
-  "eol-last": ["error", "never"]
+    "extends": "./node_modules/standard/eslintrc.json",
+    "eol-last": [
+      "error",
+      "never"
+    ]
   }
 }
